@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/0/53346fcfca904a0ea64ffe548c73e93f/artifacts
+deleted_time: 1712232124732
+end_time: 1712232092892
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 53346fcfca904a0ea64ffe548c73e93f
+run_name: bright-panda-20
+run_uuid: 53346fcfca904a0ea64ffe548c73e93f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712232092798
+status: 3
+tags: []
+user_id: puthu

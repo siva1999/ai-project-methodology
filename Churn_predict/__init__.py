@@ -5,3 +5,7 @@ selected_features = [
     'PreferredPaymentMode', 
     'Gender',
     'NumberOfDeviceRegistered']
+
+categorical_columns = ['PreferredLoginDevice', 'PreferredPaymentMode', 'Gender']
+
+continuous_columns = ['CustomerID', 'CityTier', 'NumberOfDeviceRegistered']
