@@ -4,6 +4,7 @@ import joblib
 import mlflow
 from sklearn.metrics import mean_squared_error
 import numpy as np
+import os 
 import sys
 sys.path.append('..')
 from Churn_predict import selected_features
@@ -27,13 +28,13 @@ def build_model(data: pd.DataFrame) -> dict:
     continuous_columns = df[ selected_features].select_dtypes(
         include='number').columns
 
-    encoder = joblib.load('../models/encoder.joblib')
-    scaler = joblib.load('../models/scaler.joblib')
+    encoder = joblib.load('models/encoder.joblib')
+    scaler = joblib.load('models/scaler.joblib')
 
     X_train_encoded = encoder.transform(X_train[categorical_columns]).toarray()
     X_train_scaled = scaler.transform(X_train[continuous_columns])
   
-    model = joblib.load('../models/model.joblib')
+    model = joblib.load('models/model.joblib')
  
     model.fit(np.concatenate(
         [X_train_scaled, X_train_encoded], axis=1), y_train)
