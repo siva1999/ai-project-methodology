@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/aa4c43fc3dc4431f9e2cd237ed0f2e0e/artifacts
+end_time: 1712231255326
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: aa4c43fc3dc4431f9e2cd237ed0f2e0e
+run_name: trusting-smelt-895
+run_uuid: aa4c43fc3dc4431f9e2cd237ed0f2e0e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712231255150
+status: 3
+tags: []
+user_id: puthu
