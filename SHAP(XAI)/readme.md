@@ -40,6 +40,9 @@ joblib (if saving and loading models)
 
 ## Usage
 Clone or download the repository to your local machine.
-Install the required libraries using pip install -r requirements.txt.
+Install the required libraries using 
+```bash
+pip install -r requirements.txt
+```
 Run the Jupyter Notebook notebook.ipynb.
 Follow the instructions provided in the notebook to load the preprocessed data and the pre-trained model, compute SHAP values, and visualize the results.
