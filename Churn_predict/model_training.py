@@ -1,10 +1,8 @@
 import pandas as pd
 from sklearn.model_selection import train_test_split
 import joblib
-import mlflow
 from sklearn.metrics import mean_squared_error
 import numpy as np
-import os 
 import sys
 sys.path.append('..')
 from Churn_predict import selected_features
@@ -16,10 +14,6 @@ def build_model(data: pd.DataFrame) -> dict:
    
     X_train, X_test, y_train, y_test = (
         train_test_split(X, y, test_size=0.2, random_state=42))
-    
-    mlflow.log_param("train_size", len(X_train))
-    mlflow.log_param("test_size", len(X_test))
-
     target_column = 'Churn'
     df = data[selected_features+ [target_column]]
 
@@ -28,13 +22,13 @@ def build_model(data: pd.DataFrame) -> dict:
     continuous_columns = df[ selected_features].select_dtypes(
         include='number').columns
 
-    encoder = joblib.load('models/encoder.joblib')
-    scaler = joblib.load('models/scaler.joblib')
+    encoder = joblib.load('../models/encoder.joblib')
+    scaler = joblib.load('../models/scaler.joblib')
 
     X_train_encoded = encoder.transform(X_train[categorical_columns]).toarray()
     X_train_scaled = scaler.transform(X_train[continuous_columns])
   
-    model = joblib.load('models/model.joblib')
+    model = joblib.load('../models/model.joblib')
  
     model.fit(np.concatenate(
         [X_train_scaled, X_train_encoded], axis=1), y_train)
@@ -43,9 +37,6 @@ def build_model(data: pd.DataFrame) -> dict:
         [X_train_scaled, X_train_encoded], axis=1))
     mse_train = mean_squared_error(y_train, y_train_pred)
     rmse_train = np.sqrt(mse_train)
-
-    mlflow.log_metric("mse_train", mse_train)
-    mlflow.log_metric("rmse_train", rmse_train)
 
     performances = {'rmse_train': rmse_train}
     return performances

@@ -3,7 +3,6 @@ import joblib
 from sklearn.impute import SimpleImputer
 from typing import List
 import sys
-import os
 sys.path.append('..')
 from Churn_predict import selected_features
   
@@ -20,8 +19,8 @@ def preprocess_data_with_objects(data: pd.DataFrame) -> pd.DataFrame:
     data_imputed_continuous = pd.DataFrame(data_imputed, columns=data.columns)[continuous_columns]
     data_imputed_categorical = pd.DataFrame(data_imputed, columns=data.columns)[categorical_columns]
 
-    encoder = joblib.load('models/encoder.joblib')
-    scaler = joblib.load('models/scaler.joblib')
+    encoder = joblib.load('../models/encoder.joblib')
+    scaler = joblib.load('../models/scaler.joblib')
 
     encoded_features = encoder.transform(data_imputed_categorical).toarray()
     scaled_features = scaler.transform(data_imputed_continuous)
