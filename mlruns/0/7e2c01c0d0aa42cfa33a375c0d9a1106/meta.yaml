@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/0/7e2c01c0d0aa42cfa33a375c0d9a1106/artifacts
+deleted_time: 1712232144836
+end_time: 1712232131043
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 7e2c01c0d0aa42cfa33a375c0d9a1106
+run_name: defiant-stag-312
+run_uuid: 7e2c01c0d0aa42cfa33a375c0d9a1106
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712232130948
+status: 3
+tags: []
+user_id: puthu
