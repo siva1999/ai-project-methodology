@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/69001abdfcd14f23b695a098a9e90023/artifacts
+end_time: 1712948549111
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 69001abdfcd14f23b695a098a9e90023
+run_name: big-fowl-923
+run_uuid: 69001abdfcd14f23b695a098a9e90023
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712948159889
+status: 3
+tags: []
+user_id: puthu

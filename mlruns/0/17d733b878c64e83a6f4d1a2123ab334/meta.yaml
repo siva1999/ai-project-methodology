@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/17d733b878c64e83a6f4d1a2123ab334/artifacts
+end_time: 1712598443890
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 17d733b878c64e83a6f4d1a2123ab334
+run_name: blushing-hound-562
+run_uuid: 17d733b878c64e83a6f4d1a2123ab334
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712598433759
+status: 3
+tags: []
+user_id: puthu

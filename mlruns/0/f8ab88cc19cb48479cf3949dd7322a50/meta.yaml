@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/f8ab88cc19cb48479cf3949dd7322a50/artifacts
+end_time: 1712947262658
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f8ab88cc19cb48479cf3949dd7322a50
+run_name: rogue-stork-657
+run_uuid: f8ab88cc19cb48479cf3949dd7322a50
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712947172303
+status: 3
+tags: []
+user_id: puthu

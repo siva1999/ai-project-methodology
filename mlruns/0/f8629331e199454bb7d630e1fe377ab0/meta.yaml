@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/f8629331e199454bb7d630e1fe377ab0/artifacts
+end_time: 1712948870818
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f8629331e199454bb7d630e1fe377ab0
+run_name: adventurous-flea-202
+run_uuid: f8629331e199454bb7d630e1fe377ab0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712948840254
+status: 3
+tags: []
+user_id: puthu

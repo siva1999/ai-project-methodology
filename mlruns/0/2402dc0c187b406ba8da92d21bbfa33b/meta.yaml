@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/2402dc0c187b406ba8da92d21bbfa33b/artifacts
+end_time: 1712948049700
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2402dc0c187b406ba8da92d21bbfa33b
+run_name: abundant-wolf-976
+run_uuid: 2402dc0c187b406ba8da92d21bbfa33b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712947949415
+status: 3
+tags: []
+user_id: puthu

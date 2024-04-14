@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/43e5d801e1634a37a7df100e1bab984e/artifacts
+end_time: 1712944492366
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 43e5d801e1634a37a7df100e1bab984e
+run_name: unleashed-colt-182
+run_uuid: 43e5d801e1634a37a7df100e1bab984e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712941237637
+status: 3
+tags: []
+user_id: puthu

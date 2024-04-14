@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/33a5c9667cd649a19618c6209d32d95a/artifacts
+end_time: 1712947446986
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 33a5c9667cd649a19618c6209d32d95a
+run_name: wise-kite-537
+run_uuid: 33a5c9667cd649a19618c6209d32d95a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712947293602
+status: 3
+tags: []
+user_id: puthu

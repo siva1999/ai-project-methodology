@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/09fcb62bec8245e1ba57dbc178945b4a/artifacts
+end_time: 1712948202264
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 09fcb62bec8245e1ba57dbc178945b4a
+run_name: rambunctious-owl-441
+run_uuid: 09fcb62bec8245e1ba57dbc178945b4a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712948189853
+status: 3
+tags: []
+user_id: puthu

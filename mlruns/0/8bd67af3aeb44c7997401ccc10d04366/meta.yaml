@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/8bd67af3aeb44c7997401ccc10d04366/artifacts
+end_time: 1712941127937
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8bd67af3aeb44c7997401ccc10d04366
+run_name: traveling-steed-292
+run_uuid: 8bd67af3aeb44c7997401ccc10d04366
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712941115425
+status: 3
+tags: []
+user_id: puthu

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/aad57623e2b449d9a8b048ecf3a600fc/artifacts
+end_time: 1712946529499
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: aad57623e2b449d9a8b048ecf3a600fc
+run_name: nimble-swan-702
+run_uuid: aad57623e2b449d9a8b048ecf3a600fc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712946437113
+status: 3
+tags: []
+user_id: puthu

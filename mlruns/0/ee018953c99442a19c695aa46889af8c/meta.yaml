@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/ee018953c99442a19c695aa46889af8c/artifacts
+end_time: 1712946805746
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ee018953c99442a19c695aa46889af8c
+run_name: silent-shrimp-591
+run_uuid: ee018953c99442a19c695aa46889af8c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712946550409
+status: 3
+tags: []
+user_id: puthu

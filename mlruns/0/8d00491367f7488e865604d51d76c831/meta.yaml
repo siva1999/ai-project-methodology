@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/8d00491367f7488e865604d51d76c831/artifacts
+end_time: 1712946854324
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8d00491367f7488e865604d51d76c831
+run_name: shivering-sponge-140
+run_uuid: 8d00491367f7488e865604d51d76c831
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712946827777
+status: 3
+tags: []
+user_id: puthu

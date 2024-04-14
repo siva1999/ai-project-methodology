@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/306dd220154a4426a2a9bf3c0310503e/artifacts
+end_time: 1712947173154
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 306dd220154a4426a2a9bf3c0310503e
+run_name: burly-dog-810
+run_uuid: 306dd220154a4426a2a9bf3c0310503e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712947160111
+status: 3
+tags: []
+user_id: puthu

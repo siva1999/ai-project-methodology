@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/0df1b243eb9842d2a81c9166a7421164/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0df1b243eb9842d2a81c9166a7421164
+run_name: merciful-bat-924
+run_uuid: 0df1b243eb9842d2a81c9166a7421164
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712948938265
+status: 1
+tags: []
+user_id: puthu

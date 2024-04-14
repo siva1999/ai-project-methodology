@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/b624319064aa4f51ba110289b97a2ebf/artifacts
+end_time: 1712946970011
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b624319064aa4f51ba110289b97a2ebf
+run_name: enthused-mare-111
+run_uuid: b624319064aa4f51ba110289b97a2ebf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712946956445
+status: 3
+tags: []
+user_id: puthu
