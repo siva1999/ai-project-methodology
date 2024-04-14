@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/90fdfed1f70e46a79ddc05269d1f154f/artifacts
+end_time: 1712946437728
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 90fdfed1f70e46a79ddc05269d1f154f
+run_name: rare-stag-684
+run_uuid: 90fdfed1f70e46a79ddc05269d1f154f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712946424423
+status: 3
+tags: []
+user_id: puthu

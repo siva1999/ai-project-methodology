@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/b6c525295b18412fa92caa6f99b11934/artifacts
+end_time: 1712598171509
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b6c525295b18412fa92caa6f99b11934
+run_name: resilient-mole-360
+run_uuid: b6c525295b18412fa92caa6f99b11934
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712598161215
+status: 4
+tags: []
+user_id: puthu

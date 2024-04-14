@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/dab243d69b1743099e7c86b08f20e395/artifacts
+end_time: 1712946284057
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dab243d69b1743099e7c86b08f20e395
+run_name: youthful-cub-503
+run_uuid: dab243d69b1743099e7c86b08f20e395
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712946159548
+status: 3
+tags: []
+user_id: puthu

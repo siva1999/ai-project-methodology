@@ -5,6 +5,7 @@ conda_env: conda.yaml
 entry_points:
   main:
     parameters:
-      data_path: string
-      model_path: string
+      data_path: {type: string, default: "default_data_path.csv"}
+      test_data_path: {type: string, default: "default_test_data_path.csv"}
+      model_path: {type: string, default: "default_model_path.joblib"}
     command: "python main.py"

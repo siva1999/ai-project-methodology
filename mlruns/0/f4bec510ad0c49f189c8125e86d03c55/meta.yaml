@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/f4bec510ad0c49f189c8125e86d03c55/artifacts
+end_time: 1712944585003
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f4bec510ad0c49f189c8125e86d03c55
+run_name: glamorous-newt-665
+run_uuid: f4bec510ad0c49f189c8125e86d03c55
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712944572175
+status: 3
+tags: []
+user_id: puthu

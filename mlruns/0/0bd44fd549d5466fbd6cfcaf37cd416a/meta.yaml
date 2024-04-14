@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/0bd44fd549d5466fbd6cfcaf37cd416a/artifacts
+end_time: 1712946160221
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0bd44fd549d5466fbd6cfcaf37cd416a
+run_name: sedate-shark-148
+run_uuid: 0bd44fd549d5466fbd6cfcaf37cd416a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712946147848
+status: 3
+tags: []
+user_id: puthu

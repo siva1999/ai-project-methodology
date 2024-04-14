@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/ccbd4cc21aa841aba5b6df1a9f3a851f/artifacts
+end_time: 1712946324342
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ccbd4cc21aa841aba5b6df1a9f3a851f
+run_name: serious-stork-284
+run_uuid: ccbd4cc21aa841aba5b6df1a9f3a851f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712946311656
+status: 3
+tags: []
+user_id: puthu

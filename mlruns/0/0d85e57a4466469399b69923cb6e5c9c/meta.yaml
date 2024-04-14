@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/0d85e57a4466469399b69923cb6e5c9c/artifacts
+end_time: 1712598217915
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0d85e57a4466469399b69923cb6e5c9c
+run_name: handsome-pug-318
+run_uuid: 0d85e57a4466469399b69923cb6e5c9c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712598207216
+status: 3
+tags: []
+user_id: puthu

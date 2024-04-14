@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/9722c4213794426381b2eb6460454a88/artifacts
+end_time: 1712945867955
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9722c4213794426381b2eb6460454a88
+run_name: sedate-boar-5
+run_uuid: 9722c4213794426381b2eb6460454a88
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712945224749
+status: 3
+tags: []
+user_id: puthu

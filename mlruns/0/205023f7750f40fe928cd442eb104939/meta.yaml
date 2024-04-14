@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/205023f7750f40fe928cd442eb104939/artifacts
+end_time: 1712944884475
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 205023f7750f40fe928cd442eb104939
+run_name: bold-snail-294
+run_uuid: 205023f7750f40fe928cd442eb104939
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712944694110
+status: 3
+tags: []
+user_id: puthu

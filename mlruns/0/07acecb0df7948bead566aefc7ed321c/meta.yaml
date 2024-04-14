@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/07acecb0df7948bead566aefc7ed321c/artifacts
+end_time: 1712946406194
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 07acecb0df7948bead566aefc7ed321c
+run_name: popular-robin-451
+run_uuid: 07acecb0df7948bead566aefc7ed321c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712946323729
+status: 3
+tags: []
+user_id: puthu

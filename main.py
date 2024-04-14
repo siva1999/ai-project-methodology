@@ -1,37 +1,25 @@
 import sys
-import os
-import pandas as pd
 import mlflow
+import requests
 
 sys.path.append('..')
 
-
-from Churn_predict.model_training import build_model
-from Churn_predict.inference import make_predictions
-from Churn_predict import selected_features
-
-
-
 def main():
-    data_path = "data/E Commerce Dataset.csv"
-    test_data_path = "data/test.csv"
+
+    API_BASE_URL = "http://localhost:8000"
+    MLFLOW_URL = "http://127.0.0.1:5000"  
 
     mlflow.set_tracking_uri("http://127.0.0.1:5000")
     mlflow.start_run()
-    
-    training_data_df = pd.read_csv(data_path)
-    model_performance_dict = build_model(training_data_df)
-    print(model_performance_dict)
-    
-    user_data_df = pd.read_csv(test_data_path)
-    user_data_selected = user_data_df[selected_features]
-    predictions = make_predictions(user_data_selected)
-    print(predictions)
-    
+    print("============== Ml flow logging started =======================")
+    print(" ****** Calling predict API end point ******")
+    endpoint = f"{API_BASE_URL}/predict/"
+    response = requests.post(endpoint)
+    if response.status_code == 200:
+        print(F" Successfully predicted ! , open {MLFLOW_URL} to see the run results.")
+    else:
+        print(f"Error: {response.status_code} - {response.text}")
     mlflow.end_run()
-
+    print("============== Ml flow logging stopped =======================")
 if __name__ == "__main__":
-    if len(sys.argv) != 3:
-        print("Usage: python main.py <data_path> <test_data_path>")
-        sys.exit(1)
     main()
