@@ -9,10 +9,9 @@ project = 'Churn_prediction'
 authors = 'Yazid, Sivaprasad, Sanjaya'
 
 
-
 extensions = [
     'sphinx.ext.autodoc',
-    'sphinx.ext.viewcode' 
+    'sphinx.ext.viewcode'
 ]
 
 
@@ -22,4 +21,3 @@ templates_path = ['_templates']
 # -- Options for HTML output -------------------------------------------------
 
 html_theme = 'sphinx_rtd_theme'
-
