@@ -32,14 +32,20 @@ mlflow run . -P data_path="C:\Users\puthu\siva\EPITA\S2\Ai_project_methodology\a
 1. Clone the repository:
 
     ```bash
+
     git clone git@github.com:siva1999/ai-project-methodology.git
     cd ai-project-methodology
+
     ```
 
-2. Install the required dependencies:
+2. Create and Install the required dependencies:
 
     ```bash
-    mlflow run .
+
+    conda create -y python=3.9 --name aipm
+    conda activate aipm
+    pip install -r requirements.txt
+
     ```
 
 ## Usage
@@ -48,10 +54,6 @@ To run the project, execute the following command:
 ```bash
 
 in the root folder execute the below commands:
-
-activate the environment :
-
-conda activate base
 
 up the mlflow ui :
 
@@ -65,3 +67,4 @@ run :
 
 mlflow run .
 
+# The mlflow ui will be running on http://127.0.0.1:5000
