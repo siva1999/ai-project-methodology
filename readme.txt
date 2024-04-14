@@ -1,70 +1,47 @@
-# To run the project using MLflow, execute the below command in the root folder.
+AI Project Methodology
+Overview
+This repository outlines a structured methodology for developing and deploying machine learning projects using MLflow for experiment tracking and FastAPI for serving machine learning models. The project structure provides a clear organization of code, data, and artifacts to ensure reproducibility and scalability in AI projects.
 
-# run the mlflow server
+Project Structure
+main.py: Contains the main script for making predictions and logging with MLflow.
+conda.yaml: Conda environment specification file.
+MLproject: MLflow project configuration file.
+mlruns: Folder used by MLflow to store run information, including parameters, metrics, and artifacts logged during the execution of MLflow projects.
+mlartifacts: Folder intended to store artifacts generated during the execution of MLflow projects. Artifacts may include trained models, plots, visualizations, data files, or any other files generated during the machine learning workflow.
+models: Folder to store trained machine learning models.
+notebooks: Folder containing Jupyter notebooks for experimentation and analysis.
+fast_api: Folder for developing FastAPI-based web services for serving machine learning models.
+Churn_predict: Folder containing subdirectories for different stages of the machine learning workflow, including preprocessing, model training, and inference.
+Setup
+Clone the repository:
+
+bash
+Copy code
+git clone git@github.com:siva1999/ai-project-methodology.git
+cd ai-project-methodology
+Create and Install the required dependencies:
+
+bash
+Copy code
+conda create -y python=3.9 --name aipm
+conda activate aipm
+pip install -r requirements.txt
+Usage
+To run the project, follow these steps:
+
+Start the MLflow UI:
+
+bash
+Copy code
 mlflow ui
+Run the FastAPI service:
 
-# run the fast API server
-
+bash
+Copy code
 uvicorn fast_api.api:app --reload
+Execute the MLflow project:
 
-# to run , replace the path with your local path 
-
-mlflow run . -P data_path="C:\Users\puthu\siva\EPITA\S2\Ai_project_methodology\ai-project-methodology\data\E Commerce Dataset.csv" -P test_data_path="C:\Users\puthu\siva\EPITA\S2\Ai_project_methodology\ai-project-methodology\data\test.csv" -P model_path="dummy_value"
-
-
-# AI Project Methodology
-
-## Overview
-
-
-## Project Structure
-- `main.py`: Contains the main script for making predictions and logging with MLflow.
-- `conda.yaml`: Conda environment specification file.
-- `MLproject`: MLflow project configuration file.
-- `mlruns`: Folder used by MLflow to store run information, including parameters, metrics, and artifacts logged during the execution of MLflow projects.
-- `mlartifacts`: Folder intended to store artifacts generated during the execution of MLflow projects. Artifacts may include trained models, plots, visualizations, data files, or any other files generated during the machine learning workflow.
-- `models`: Folder to store trained machine learning models.
-- `notebooks`: Folder containing Jupyter notebooks for experimentation and analysis.
-- `fast_api`: Folder for developing FastAPI-based web services for serving machine learning models.
-- `Churn_predict`: Folder containing subdirectories for different stages of the machine learning workflow, including preprocessing, model training, and inference.
-
-## Setup
-1. Clone the repository:
-
-    ```bash
-
-    git clone git@github.com:siva1999/ai-project-methodology.git
-    cd ai-project-methodology
-
-    ```
-
-2. Create and Install the required dependencies:
-
-    ```bash
-
-    conda create -y python=3.9 --name aipm
-    conda activate aipm
-    pip install -r requirements.txt
-
-    ```
-
-## Usage
-To run the project, execute the following command:
-
-```bash
-
-in the root folder execute the below commands:
-
-up the mlflow ui :
-
-mlflow ui
-
-up the fastAPI :
-
-uvicorn fast_api.api:app --reload
-
-run :
-
+bash
+Copy code
 mlflow run .
-
-# The mlflow ui will be running on http://127.0.0.1:5000
+After executing these commands, the MLflow UI will be accessible at http://127.0.0.1:5000, where you can view experiment runs, metrics, parameters, and artifacts logged during the project execution.
