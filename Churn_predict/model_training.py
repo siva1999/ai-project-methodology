@@ -1,4 +1,5 @@
 import pandas as pd
+from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
 import joblib
 import mlflow
@@ -9,7 +10,6 @@ import sys
 sys.path.append('..')
 from Churn_predict import selected_features
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
-from sklearn.linear_model import LinearRegression
 
 
 
@@ -29,7 +29,7 @@ def pred_val(X_train_scaled,X_train_encoded,y_train):
 
 
 def model(X_train,categorical_columns,continuous_columns,onehot_encoder,y_train,scaler,encoder):
-    model = LinearRegression()
+    model = RandomForestRegressor()
 
     X_train_scaled = scaler.transform(X_train[continuous_columns])
     onehot_encoded_features_train = encoder.transform(X_train[categorical_columns])
